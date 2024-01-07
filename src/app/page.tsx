@@ -49,7 +49,9 @@ export default function Home() {
         blogData.blogs.map((item: BlogItem) => {
 
        
-         return  <Card photo_url={item.photo_url}
+          return <Card
+            key={item.id}
+            photo_url={item.photo_url}
             id={item.id}
            title={item.title}
            description={item.description}

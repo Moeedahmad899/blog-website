@@ -13,6 +13,7 @@ blogArray.map(item => {
     return (
        
         <SinglePost photo_url={item.photo_url}
+            key={item.id}
             id={item.id}
            title={item.title}
            description={item.description}
