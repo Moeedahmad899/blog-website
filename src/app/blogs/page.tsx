@@ -41,8 +41,8 @@ export default function Home() {
  
   return (
     <div>
- 
- <h1 className="pt-12 text-7xl	 text-center font-semibold text-gray-900 capitalize  dark:text-white">Recent Blogs</h1>
+  
+ <h1 className="pt-12 text-7xl text-center font-semibold text-gray-900 capitalize  dark:text-white">Recent Blogs</h1>
  <div className='flex  flex-wrap gap-10 p-14 mx-auto'>   
      
       { 
